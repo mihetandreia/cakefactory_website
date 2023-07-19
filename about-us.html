@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link href="vendor/img/fstle/fs.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery-image-popup.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>CakeFactory</title>
+
+
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Cake<em>Factory</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+                </li> 
+
+                <li class="nav-item active"><a class="nav-link" href="about-us.html">About us</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">User</a>
+                    
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="login.php">Login</a>
+                      <a class="dropdown-item" href="register.php">Register</a>
+                      <a class="dropdown-item" id="admin-link"  href="admin_page.php">Admin</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.php">Products</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading about-heading header-text" style="background-image: url(assets/images/heading-1-1920x500.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>about us</h4>
+              <h2>our cakeshop</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="best-features about-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Hrană pentru suflet!</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <ul id="imageGallery">
+                <li>
+                <a><img src="assets/images/about-1-570x350.jpg" alt="Tort"></a>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-content">
+              <h4>Atenție la fiecare detaliu pentru a obține un rezultat perfect.</h4>
+              <p>Prăjiturile noastre sunt o piesă de artă create din suflet și cu multă iubire pentru micile momente de răsfăț.
+                Folosind cele mai bune ingrediente și create de cei mai pricepuți cofetari, scopul nostru este să avem grijă de sănătatea clienților în timp ce le oferim un moment de răsfăț.
+              </p>
+
+              <p>Povestea nostră a început cu 10 ani în urmă, când pasiunea pentru deserturi s-a transformat într-un mic business. În timp, am mărit echipa și am pregătit din ce în ce mai multe preparate pentru clienții noștri. Încercăm să oferim cele mai recente preparate, dar nu lăsăm uitării nici vechile rețete ale bunicii noastre care sunt asemenea unui portal spre dulcea copilărie.</p>
+              
+
+              <h4>Câteva dintre produsele pe care le puteți savura în locația noastră sunt: </h4>
+           
+              <ul class="a">
+                <li>Eclere</li>
+                <li>Torturi</li>
+               <li>Choux</li>
+               <li>Cakesicles</li>
+               <li>Monoporții</li>
+               <li>Tarte</li>
+               <li>Cake pops</li>
+              </ul>
+           
+          
+             </div>
+          </div>
+        
+          
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+      <h4><b>Program</b></h4>
+              <ul>
+                <li>Luni: 9-20</li>
+                <li>Marți: 8-20 <button class="button" onclick="changedata(0)">View more</button></li>
+                <div id="view-more">
+               <li>Miercuri: 8-20</li>
+               <li>Joi: 9-20</li>
+               <li>Vineri: 9-21</li>
+               <li>Sambătă: 10-18</li>
+               <li>Duminică: 10-18</li>
+              </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p> © 2020  CakeFactory</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function changedata(parameter){
+    if(parameter==0){
+      document.getElementById('view-more').style.display = 'block';
+    }
+  }
+    </script>
+
+    <script>
+      $(document).ready(function(){
+	$("#imageGallery").imagePopup({
+    overlay: "rgba(0, 0, 0, 0.7)",
+
+    closeButton:{
+        src: "img/close.png",
+        width: "40px",
+        height:"40px"
+    },
+    imageBorder: "10px solid #ffffff",
+    borderRadius: "6px",
+    imageWidth: "800px",
+    imageHeight: "auto",
+    imageCaption: {
+        exist: true,
+        color: "#ffffff",
+        fontSize: "18px"
+    },
+    open: function(){
+        console.log("opened");
+    },
+    close: function(){
+        console.log("closed");
+    }
+});
+
+});
+
+    </script>
+
+  
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/img/js/js.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+
+
+  </body>
+
+</html>
